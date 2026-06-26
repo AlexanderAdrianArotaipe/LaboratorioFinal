@@ -4,7 +4,7 @@ from matplotlib.patches import FancyArrowPatch
 
 # === Definición del DFA ===
 states = {"q0","q1","q2","q3","q4","q5","q6","q7","q8","q9"}
-alphabet = {"a","b","c", "d"; "e"}
+alphabet = {"a","b","c", "d", "e"}
 delta = {("q0","a"):"q1", 
         ("q0","b"):"q2", 
         ("q0","c"):"q3", 
